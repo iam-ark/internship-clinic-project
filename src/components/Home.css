@@ -1,0 +1,46 @@
+/* src/components/Home.css */
+.home {
+    padding: 20px;
+    padding-top: 0px;
+    background-image: url("I2-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 60px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto; 
+}
+
+.title {
+    color: #9ABFA6;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.subtitle {
+    color: #ffffff;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+.welcome-text {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.links a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #9ABFA6;
+    font-size: 30px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

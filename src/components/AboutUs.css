@@ -1,0 +1,63 @@
+/* src/components/AboutUs.css */
+.about-us {
+    padding: 20px;
+    background-image: url('I1-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: calc(100vh - 60px); 
+    color: #ffffff;
+}
+
+.title {
+    color: #9ABFA6;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-top: 0;
+    text-align: left;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.contact-info,
+.visit-info,
+.social-media {
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+.contact-info h2,
+.visit-info h2,
+.social-media h2 {
+    font-size: 24px;
+    color: #9ABFA6;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.contact-info p,
+.visit-info p,
+.social-media p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.social-media a {
+    color: #9ABFA6;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left; 
+}
